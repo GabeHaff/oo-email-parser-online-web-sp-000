@@ -13,7 +13,7 @@ def initialize(email_addresses)
 end 
 
 def parse 
-  parsed_emails= @emails.split(/[,''\n]/).uniq 
+  parsed_emails= @emails.split(/[,\n]/).uniq 
 end
 
 end
